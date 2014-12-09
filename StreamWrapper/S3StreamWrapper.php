@@ -21,11 +21,12 @@ class S3StreamWrapper
      */
     protected $s3Client;
 
-    public function __construct($key, $secret)
+    public function __construct($key, $secret, $region)
     {
         $aws = array(
             'key'    => $key,
-            'secret' => $secret
+            'secret' => $secret,
+            'region' => $region
         );
 
         $this->s3Client = Aws::factory($aws)->get('s3');

@@ -22,7 +22,8 @@ class AFMAsseticAmazonS3Bundle extends Bundle
 
         $s3Wrapper = new S3StreamWrapper(
             $this->container->getParameter('aws_key'),
-            $this->container->getParameter('aws_secret_key')
+            $this->container->getParameter('aws_secret_key'),
+            $this->container->getParameter('aws_region')
         );
 
         $s3Wrapper->registerStreamWrapper();
