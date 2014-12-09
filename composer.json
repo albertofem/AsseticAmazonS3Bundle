@@ -1,0 +1,18 @@
+{
+    "name": "albertofem/assetic-amazon-s3-bundle",
+    "description": "Bundle to dump assetic assets to Amazon S3",
+    "require": {
+        "aws/aws-sdk-php": "2.*"
+    },
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Alberto Fernández",
+            "email": "albertofem@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "AFM\\Bundle\\AsseticAmazonS3Bundle": "" }
+    },
+    "target-dir": "AFM/Bundle/AsseticAmazonS3Bundle"
+}
