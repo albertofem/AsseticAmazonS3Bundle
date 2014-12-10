@@ -1,6 +1,8 @@
 AsseticAmazonS3Bundle
 =====================
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/albertofem/AsseticAmazonS3Bundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/albertofem/AsseticAmazonS3Bundle/?branch=master)
+
 Bundle to dump assetic assets to Amazon S3
 
 Installation
